@@ -1,12 +1,8 @@
 {
-  "dependencies": {
-    "discord.js": "^14.8.0"
-  },
   "name": "discord-bot",
   "description": "BOT para Discord",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +10,9 @@
     "bot-discord"
   ],
   "author": "the-riquelme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.8.0"
+  },
+  "devDependencies": {}
 }
